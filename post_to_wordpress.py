@@ -27,7 +27,7 @@ post_data = {
 
 # Send the post request
 response = requests.post(
-    WORDPRESS_BASE_URL,
+    WORDPRESS_BASE_URL+'/wp-json/wp/v2/posts',
     auth=HTTPBasicAuth(WORDPRESS_USERNAME, WORDPRESS_PASSWORD),
     json=post_data
 )
