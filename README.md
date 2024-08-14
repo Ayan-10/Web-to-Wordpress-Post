@@ -1,7 +1,7 @@
 # Web to Wordpess post
 
 ## Installation
-pip install requests, bs4, pandas
+pip install requests, bs4
 
 ## Environment Variables
 Go to constants.py
