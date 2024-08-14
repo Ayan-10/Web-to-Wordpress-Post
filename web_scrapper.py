@@ -1,6 +1,5 @@
 import requests
 from bs4 import BeautifulSoup
-import pandas as pd
 from constants import API_KEY, SCRAPE_URL
 
 def scrape():
